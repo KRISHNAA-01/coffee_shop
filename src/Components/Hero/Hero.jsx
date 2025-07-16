@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from '../Header';
-
+import './Hero.css'
 const Hero = () => {
   return (
     <div>
@@ -16,7 +16,7 @@ const Hero = () => {
           <div className="carousel-item  ">
             <img src="https://images2.alphacoders.com/129/1294573.jpg" className="d-block w-100" alt="Coffee shop interior" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Welcome to Brew Haven</h5>
+              <h3>Welcome to Brew Haven</h3>
               <p>Your daily escape with the aroma of freshly brewed coffee and cozy vibes.</p>
             </div>
           </div>
@@ -24,7 +24,7 @@ const Hero = () => {
           <div className="carousel-item ">
             <img src="https://wallpapers.com/images/hd/hot-coffee-in-a-coffee-cup-with-coffee-beans-tjr1dy5o0lazx2pc.jpg" className="d-block w-100" alt="Signature coffee" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Our Signature Blend</h5>
+              <h3>Our Signature Blend</h3>
               <p>Crafted from the finest beans — rich, bold, and unforgettable flavor in every sip.</p>
             </div>
           </div>
@@ -32,7 +32,7 @@ const Hero = () => {
           <div className="carousel-item active">
             <img src="https://wallpaperaccess.com/full/9524787.jpg" className="d-block w-100" alt="Cozy café ambiance" />
             <div className="carousel-caption d-none d-md-block">
-              <h5>Experience the Atmosphere</h5>
+              <h3>Experience the Atmosphere</h3>
               <p>Relax, connect, and unwind in a space made for comfort and community.</p>
             </div>
           </div>

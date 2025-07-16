@@ -16,6 +16,9 @@
   cursor: pointer;
   
 }
+.icon2:hover{
+  background-color: rgb(205, 201, 201);
+}
 a{
   text-decoration: none;
 }
@@ -28,7 +31,7 @@ a{
   z-index: 10; 
   backdrop-filter: blur(3px);
   /* background-color: rgba(255, 255, 255, 0.5);  */
-      background-image: linear-gradient(to right, #ffffff, #878181); /* Darker to lighter grey */
+      background-image: linear-gradient(to right, #ffffff, #656464); /* Darker to lighter grey */
 
   
 }
