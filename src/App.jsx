@@ -6,7 +6,7 @@ import 'bootstrap-icons/font/bootstrap-icons.css';
 
 import Home from './Pages/Home'
 import {BrowserRouter,Routes,Route} from 'react-router-dom';
-import About from '../../root_gallery/src/Pages/About'
+import About from './Pages/About'
 import { Menu } from './Pages/Menu';
 function App() {
 
