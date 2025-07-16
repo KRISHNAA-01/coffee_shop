@@ -1,0 +1,12 @@
+.ccontainer1{
+    background-color:beige;
+    background-image: url('https://images.pexels.com/photos/326333/pexels-photo-326333.jpeg?cs=srgb&dl=pexels-pixabay-326333.jpg&fm=jpg');
+    color: aliceblue;
+    background-size:cover;
+    background-repeat: no-repeat;
+     height: 100vh; /* 100% of the viewport height */
+    width: 100vw;  /* Optional: Full width of viewport */
+    margin: 0;
+    padding: 0;
+
+}

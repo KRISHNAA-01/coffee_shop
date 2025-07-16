@@ -1,0 +1,147 @@
+
+#logo{
+  width:120px;
+  
+}
+.menu-toggle{
+  display: none;
+}
+
+.icon2{
+  width: 60px;
+  height: 60px;
+  padding-left: 10px ;
+  padding-right: 10px;
+  padding-top: 10px;
+  cursor: pointer;
+  
+}
+a{
+  text-decoration: none;
+}
+.main{
+  justify-content:space-between;
+  align-items: center;
+  padding-left: 20px;
+  position: absolute;
+  width: 100%;
+  z-index: 10; 
+  backdrop-filter: blur(3px);
+  /* background-color: rgba(255, 255, 255, 0.5);  */
+      background-image: linear-gradient(to right, #ffffff, #878181); /* Darker to lighter grey */
+
+  
+}
+.navitems{
+  padding: 10px;
+  font-size: 1.5rem;
+}
+.anchor{
+  padding: 7px;
+  color:white;
+  background-color: rgb(77, 77, 63);
+
+  border-radius: 10px;
+  margin: 10px;
+  text-decoration: none;
+  font-size: 1.2rem !important;
+
+}
+.anchor:hover{
+  background-color: rgb(41, 39, 39);
+}
+h1{
+    font-family: "Lucida Handwriting";
+    color: black;
+}
+
+
+@media (max-width:760px) {
+  .menu-toggle{
+    display: flex;
+  }
+  .nav-links{
+    display: none;
+    flex-direction: column;
+    position: absolute;
+    top: 60px; /* adjust as needed */
+    right: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    padding: 10px;
+    border-radius: 10px;
+    z-index: 20;
+  }
+  .nav-links.show{
+    display: flex;
+  }
+
+  .anchor{
+  /* padding: 5px; */
+  font-size: 0.68rem;
+  background-color: #4d4d3f;
+}
+.icon2{
+  width: 30px;
+  height: 30px;
+  padding: 5px ;
+  margin-left: 8px;
+}
+h1{
+  font-size: 20px;
+
+}
+#logo{
+  width: 80px;
+  
+}
+.anchor{
+  padding: 5px;
+  color:white;
+  background-color: rgb(77, 77, 63);
+  border-radius: 7px;
+  margin: 5px;
+  
+}
+
+}
+
+/* img{
+    width: 100px;
+    
+}
+
+button, a{
+    font-size: 18px !important;
+    color: #ffffff  !important;
+    border-radius: 20px;
+    text-align: center; 
+    padding: 10px;  
+}
+.navbar-toggler{
+    background-color: rgba(210, 198, 198, 0.5) !important;
+}
+a:hover{
+  background-color: rgba(158, 109, 74,0.6);
+}
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 10; 
+  background-color: rgba(0, 0, 0, 0.4) !important; 
+  
+  backdrop-filter: blur(5px); 
+}
+.navbar-nav {
+    padding-left: 70% ;
+    display: flex;
+   
+}
+h1 {
+  font-family: 'Magle Script', sans-serif;
+  font-size: 2.1em;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+} */
